@@ -1,6 +1,6 @@
 # python-learn
 这次真的会学下去吗？工作压力也许会使学习效率更高...
-
+## 模块
 ### 日志打印模块
 
 logging：
@@ -17,6 +17,7 @@ logging：
     logging.critical('critical message')
 [更多关于 logging 的教程](https://www.jianshu.com/p/feb86c06c4f4)
 
+### 正则模块
 re:
 
     python 的正则：
@@ -32,3 +33,13 @@ re:
         re.S 即为 . 并且包括换行符在内的任意字符（. 不包括换行符）
         re.U 表示特殊字符集 \w, \W, \b, \B, \d, \D, \s, \S 依赖于 Unicode 字符属性数据库
         re.X 为了增加可读性，忽略空格和 # 后面的注释
+### 日期和时间模块
+
+    time:
+    time.sleep(secs)
+    推迟调用线程的运行，secs指秒数
+    
+### 进程通信模块
+
+    socket：
+    socket.gethostname() 获取本地主机名
