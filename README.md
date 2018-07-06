@@ -43,3 +43,17 @@ re:
 
     socket：
     socket.gethostname() 获取本地主机名
+## 面向对象
+
+### 类
+    class:
+    类相当于一个抽象的模板，提供方法
+    
+### 实例
+    instance：
+    根据实例创建出来的具体的对象，方法相同，但是数据不同
+    
+### 举例：
+    class student(object):
+        pass
+    1.class 后面就是类的名字
