@@ -56,4 +56,5 @@ re:
 ### 举例：
     class student(object):
         pass
-    1.class 后面就是类的名字
+    1.class 后面就是类的名字，通常首字母大写;
+    2.紧接着是(object)，表示该类是从哪个类继承下来的;
