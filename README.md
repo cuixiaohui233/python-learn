@@ -118,3 +118,6 @@ re:
 
     a = req['a'] if req.get('a') and req['a'] < 20 else 20
     这句话的意思是：如果 req.get('a') 存在，并且 req['a'] < 20 那么 a 就等于 req['a'] 否则 a 就等于 20
+### 理解 Python 中的 if __name__ == '__main__'
+    if __name__ == '__main__'的意思是：当.py文件被直接运行时，if __name__ == '__main__'之下的代码块将被运行；当.py文件以模块形式被导入
+    时，if __name__ == '__main__'之下的代码块不被运行。
