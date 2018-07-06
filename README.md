@@ -110,3 +110,12 @@ re:
 ### Python 中 __init__.py 的作用
 
     __init__.py 文件的作用是，将一个文件夹变成一个 Python 模块，Python 中的每个模块都有 __init__.py 文件
+### Python 中的 * 和 ** 的区别
+
+    * 代表tuple(('red','blue','green'))或者list(['red','blue','green'])
+    ** 代表mapping({'red','blue','green'})或者dic（字典）({'color': 'red', 'color': 'blue'})
+    
+### if else 语句
+
+    a = req['a'] if req.get('a') and req['a'] < 20 else 20
+    这句话的意思是：如果 req.get('a') 存在，并且 req['a'] < 20 那么 a 就等于 req['a'] 否则 a 就等于 20
