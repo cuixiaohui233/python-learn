@@ -1,6 +1,7 @@
 # python-learn
 ## json.loads
-    python 提供了处理 Python 的模块，使用时候直接import json即可。使用loads方法即可将json字符串转换成python对象，对应关系如下
+    python 提供了处理 Python 的模块，使用时候直接import json即可。使用loads方法即可将json字符串转换成python对象，
+    对应关系如下:
 |JSON |Python|
 |----|----|
 |object |dict|
@@ -46,11 +47,11 @@ logging：
             “D”: Days
             “W”: Week day (0=Monday)
             “midnight”: Roll over at midnight
-            interval 是指等待多少个单位when的时间后，Logger会自动重建文件，当然，这个文件的创建取决于filename+suffix，若这个文件跟之前的文件
-            有重名，则会自动覆盖掉以前的文件，所以有些情况suffix要定义的不能因为when而重复。
+            interval 是指等待多少个单位when的时间后，Logger会自动重建文件，当然，这个文件的创建取决于filename+suffix，
+            若这个文件跟之前的文件有重名，则会自动覆盖掉以前的文件，所以有些情况suffix要定义的不能因为when而重复。
 
-            backupCount 是保留日志个数。默认的0是不会自动删除掉日志。若设10，则在文件的创建过程中库会判断是否有超过这个10，若超过，则会从最先创
-            建的开始删除。
+            backupCount 是保留日志个数。默认的0是不会自动删除掉日志。若设10，则在文件的创建过程中库会判断是否有超过这个10，
+            若超过，则会从最先创建的开始删除。
     2.DatagramHandler 输出远程日志到 UDP sockets
     
     [更多](https://blog.csdn.net/yypsober/article/details/51800120)
