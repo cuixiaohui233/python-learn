@@ -1,4 +1,22 @@
 # python-learn
+## 数据类型
+### list 
+    python:
+        list:
+            有序列表，直接[]扩起来就可以生成；
+            len(List)来获取列表的长度
+            拼接两个List,[1,2,3] + [4,5,6],两个列表都不改变，list1.extend(list2),list1会改变，list2不改变
+            重复添加同一个成员：['python!'] * 4
+            元素是否存在于列表之中 a in ['a', 'b', 'c'] -> true
+            用append向最后一位插入列表；
+            用insert(pos, new):pos->位置，new->新的成员， 在List[pos]位置插入 new
+            用pop()删除最后一个元素，pop(pos)删除第pos位的成员,返回删除的那个成员，list.remove(l)删除列表中找到的第一个l
+            用List[pos] = xxx 来快速替换某个元素，也可以删除后插入...
+            用l[pos]截取列表中的成员，l[start:end] -> start 开始位置，end 结束位置
+            用 max()/min()来获取列表中的最大值和最小值
+            用list.count(l)来计算列表中l出现的次数
+            用list.index(l)来找出第一个成员是l的索引
+            用list.reverse()来将列表倒序
 ## json.loads
     python 提供了处理 Python 的模块，使用时候直接import json即可。使用loads方法即可将json字符串转换成python对象，
     对应关系如下:
@@ -12,12 +30,6 @@
 |true |True|
 |false |False|
 |null |None|
-## 周末小总结
-    自从同学来了就一直放纵自己，就在公司学习一下就得了，回家就聊天打游戏，太放纵了！太放肆了！周末也是，不读书，不看教学视频，
-    
-    脑瓜子秀逗了，脑子瓦塌了，就知道玩儿，每天晚上想些有的没的，第二天起不来床，神经病啊你？调整作息时间！
-    
-    赶紧像个正常人一样生活我看你今年的目标还怎么实现！傻。
 ## 模块
 ### 日志打印模块
 
